@@ -1,0 +1,62 @@
+body {
+    background-color: #f0f8ff; /* Light blue background for a calming effect */
+    color: #333333; /* Dark gray text for readability */
+    font-family: 'Arial', sans-serif; /* Clean, readable font */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+header {
+    background-color: #333366; /* Dark blue for the header */
+    color: white; /* White text for contrast */
+    text-align: center;
+    padding: 20px 0; /* Padding for spacing */
+}
+
+nav {
+    height: 6000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+    background-color: #e6e6e6; /* Light gray background for the navigation */
+}
+
+#memeImage {
+    display: block; /* Ensures the image is block level */
+    margin: 20px auto; /* Center the image with automatic margins */
+    width: 80%; /* Responsive width */
+    max-width: 600px; /* Maximum width */
+}
+
+footer {
+    text-align: center;
+    margin-right: 200px;
+    padding: 20px 0; /* Padding for spacing */
+    background-color: #333366; /* Dark blue background for the footer */
+    color: white; /* White text for contrast */
+}
+
+.button {
+    background-color: #4CAF50; /* Green background for buttons */
+    color: white; /* White text for buttons */
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for button hover effect */
+}
+
+.button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.start-button {
+    /* Additional specific styles for start button if needed */
+}
+
+.stop-button {
+    /* Additional specific styles for stop button if needed */
+}
